@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+*{
+    box-sizing: border-box;
+}
+header{
+    width:960px;
+    position:relative;
+    margin:10px;
+    top:10px;
+    height: 50px;
+}
+
+.logoPic{
+    display:inline-block;
+}
+
+
+.logoText{
+    top:0px;
+    margin:0px;
+    padding:2px;
+    display:inline-block; 
+    overflow:hidden;
+    height:40px;
+}
+
+.delicious{
+    top:5px;
+    margin:0px;
+    padding:0px;
+    font-family:'Great Vibes';
+    font-size:1.7em;
+    font-weight:bold;
+}
+
+
+.theBest{
+    font-family:'Exo 2';
+    font-size:10px;
+}
+
+.icons{
+    display:inline-block;
+    float: right;
+}
+.iconFirst{
+    display:inline-block;
+    float:left;
+    margin:10px;
+}
+.iconSecond{
+    display:inline-block;
+    margin:10px;
+}
+.horizonLine{
+    height:20px;
+    background-image: url('../img/hr-img.png');
+}
