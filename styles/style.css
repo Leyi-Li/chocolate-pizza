@@ -1,16 +1,6 @@
-footer {
-    border-style: solid;
-    border-color: blue;
-    border-width: 1px;
-
-}
-
-p.break {
-    background-image: url(../img/hr-img.png);
-    height: 12px;
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
-}
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -67,4 +57,63 @@ header{
 .horizonLine{
     height:20px;
     background-image: url('../img/hr-img.png');
+}
+
+main{
+    position:relative;
+    margin:30px;
+    width:960px;
+}
+.mainHead{
+    position:relative;
+    width:960px;
+    
+}
+.mainTitle{
+    display:inline-block;
+    
+}
+h2{
+    font-family: 'Ropa Sans';
+    font-size:3em;
+    font-weight:bold;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    
+}
+.postTime{
+    font-family:'Exo 2';
+    color:gray;
+    float:left;
+}
+.printArea{
+    display:inline-block;
+    float:right;
+    margin-top:50px;
+}
+
+.printPic{
+    display:inline-block;
+}
+
+.printText{
+    display:inline-block;
+}
+
+
+
+
+
+
+footer {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+
+}
+
+p.break {
+    background-image: url(../img/hr-img.png);
+    height: 12px;
 }
