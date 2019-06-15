@@ -1,0 +1,11 @@
+footer {
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+
+}
+
+p.break {
+    background-image: url(../img/hr-img.png);
+    height: 12px;
+}
