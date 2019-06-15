@@ -1,70 +1,115 @@
-footer {
-    border-style: solid;
-    border-color: blue;
-    border-width: 1px;
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 960px;
+    position: relative;
+    margin: 10px;
+    top: 10px;
+    height: 50px;
+}
+
+.logoPic {
+    display: inline-block;
+}
+
+
+.logoText {
+    top: 0px;
+    margin: 0px;
+    padding: 2px;
+    display: inline-block;
+    overflow: hidden;
+    height: 40px;
+}
+
+.delicious {
+    top: 5px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Great Vibes';
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+
+.theBest {
+    font-family: 'Exo 2';
+    font-size: 10px;
+}
+
+.icons {
+    display: inline-block;
+    float: right;
+}
+
+.iconFirst {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+}
+
+.iconSecond {
+    display: inline-block;
+    margin: 10px;
+}
+
+.horizonLine {
+    height: 20px;
+    background-image: url('../img/hr-img.png');
+}
+
+footer {
+    width: 960px;
+    position: relative;
+    margin: 10px;
+    top: 10px;
+    height: 50px;
 }
 
 p.break {
     background-image: url(../img/hr-img.png);
     height: 12px;
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
-}
-*{
-    box-sizing: border-box;
-}
-header{
-    width:960px;
-    position:relative;
-    margin:10px;
-    top:10px;
-    height: 50px;
+
 }
 
-.logoPic{
-    display:inline-block;
+p {
+    /* width: 960px; */
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: static;
 }
 
-
-.logoText{
-    top:0px;
-    margin:0px;
-    padding:2px;
-    display:inline-block; 
-    overflow:hidden;
-    height:40px;
+main {
+    margin-top: 60px;
+    position: relative;
+    display: inline-block;
 }
 
-.delicious{
-    top:5px;
-    margin:0px;
-    padding:0px;
-    font-family:'Great Vibes';
-    font-size:1.7em;
-    font-weight:bold;
+form div {
+    padding: 1em;
+    position: relative;
 }
 
-
-.theBest{
-    font-family:'Exo 2';
-    font-size:10px;
-}
-
-.icons{
-    display:inline-block;
+form label {
+    display: inline-block;
     float: right;
+    margin-right: 10px;
 }
-.iconFirst{
-    display:inline-block;
-    float:left;
-    margin:10px;
+
+div.left-col {
+    float: left;
+    display: inline-block;
 }
-.iconSecond{
-    display:inline-block;
-    margin:10px;
-}
-.horizonLine{
-    height:20px;
-    background-image: url('../img/hr-img.png');
+
+
+
+div.right-col {
+    float: right;
+    display: inline-block;
 }
